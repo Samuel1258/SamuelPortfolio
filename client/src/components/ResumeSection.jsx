@@ -33,8 +33,8 @@ export default function ResumeSection({ profile }) {
             </p>
           </div>
           <div className="resume-sheet-badges">
-            <span className="placeholder-pill">[Contact: Placeholder]</span>
-            <span className="placeholder-pill">[Marks: Placeholder]</span>
+            <span className="badge-pill">CGPA: 8.6</span>
+            <span className="badge-pill">Chennai, India</span>
           </div>
         </div>
 

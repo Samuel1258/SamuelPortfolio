@@ -8,21 +8,11 @@ export default function Education({ educationList }) {
       degree: 'Bachelor of Engineering in Computer Science and Engineering (B.E. CSE)',
       duration: 'Present / Engineering Student',
       location: 'Chennai, Tamil Nadu',
-      marksPlaceholder: '[Academic Marks / CGPA: Editable Placeholder]',
+      marksPlaceholder: 'CGPA: 8.6',
       highlights: [
         'Curriculum emphasizes Data Structures & Algorithms, Database Management Systems (DBMS), Operating Systems, and Object-Oriented Software Engineering.',
         'Developing practical full-stack web projects with the MERN stack (MongoDB, Express, React, Node.js).',
         'Participating in college coding initiatives and technical symposiums.'
-      ]
-    },
-    {
-      institution: '[Higher Secondary School Placeholder]',
-      degree: 'Higher Secondary Certificate (HSC) - Computer Science / Mathematics',
-      duration: '[Years: e.g. 2021 - 2023]',
-      location: '[City / State Placeholder]',
-      marksPlaceholder: '[Percentage: Editable Placeholder]',
-      highlights: [
-        'Completed higher secondary education with foundation in Mathematics, Physics, and Elementary Programming concepts.'
       ]
     }
   ];

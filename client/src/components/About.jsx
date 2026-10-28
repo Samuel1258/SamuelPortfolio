@@ -59,18 +59,18 @@ export default function About({ profile }) {
           </div>
 
           <div className="fact-box">
-            <span className="fact-box-label">Contact Details (Placeholders)</span>
+            <span className="fact-box-label">Contact Details</span>
             <div className="placeholder-row">
               <Mail size={13} />
-              <span className="placeholder-pill">[your-email@example.com]</span>
+              <a href="mailto:sam1258official@gmail.com" className="contact-info-text">sam1258official@gmail.com</a>
             </div>
             <div className="placeholder-row" style={{ marginTop: '0.4rem' }}>
               <Phone size={13} />
-              <span className="placeholder-pill">[+91-XXXXXXXXXX]</span>
+              <a href="tel:9841208478" className="contact-info-text">+91 9841208478</a>
             </div>
             <div className="placeholder-row" style={{ marginTop: '0.4rem' }}>
               <MapPin size={13} />
-              <span className="placeholder-pill">[Chennai, Tamil Nadu, India]</span>
+              <span className="contact-info-text">Chennai, Tamil Nadu, India</span>
             </div>
           </div>
         </div>

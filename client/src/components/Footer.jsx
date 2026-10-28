@@ -28,6 +28,8 @@ export default function Footer({ profile }) {
             <a href="#about">About</a>
             <a href="#resume">Resume</a>
             <a href="#contact">Contact</a>
+            <a href="https://github.com/Samuel1258" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/samuel-l-527a03381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
 
           <button onClick={scrollToTop} className="btn-top" title="Back to top">

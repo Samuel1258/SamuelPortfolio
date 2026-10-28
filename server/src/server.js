@@ -115,7 +115,7 @@ app.get('/api/profile', (req, res) => {
       email: 'sam1258official@gmail.com',
       phone: '+91-9841208478',
       github: 'https://github.com/Samuel1258',
-      linkedin: 'https://linkedin.com/in/samuel-placeholder',
+      linkedin: 'https://www.linkedin.com/in/samuel-l-527a03381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       bio: 'Enthusiastic and detail-oriented Computer Science Engineering student with a solid foundation in modern web technologies, algorithms, and full-stack software development. Dedicated to crafting responsive, high-performance web applications and continuously learning best industry practices.',
       education: [
         {
@@ -128,12 +128,6 @@ app.get('/api/profile', (req, res) => {
             'Active participant in coding club hackathons and college technical symposiums',
             'Hands-on full-stack mini-project development using modern JavaScript ecosystems'
           ]
-        },
-        {
-          institution: '[Higher Secondary School / Junior College Placeholder]',
-          degree: 'Higher Secondary Certificate (HSC) - Computer Science / Maths',
-          duration: '[Years: e.g. 2021 - 2023]',
-          highlights: ['Focused on Mathematics, Physics, and Foundations of Computer Programming']
         }
       ],
       skillCategories: [

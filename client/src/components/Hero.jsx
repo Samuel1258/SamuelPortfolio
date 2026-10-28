@@ -61,24 +61,22 @@ export default function Hero({ profile }) {
         <div className="hero-social-strip">
           <span className="social-strip-label">Profiles & Channels:</span>
           <a
-            href={profile?.github || 'https://github.com/samuel-placeholder'}
+            href={profile?.github || 'https://github.com/Samuel1258'}
             target="_blank"
             rel="noreferrer"
             className="social-subtle-link"
           >
             <Github size={15} />
             <span>GitHub</span>
-            <span className="placeholder-micro">[Placeholder]</span>
           </a>
           <a
-            href={profile?.linkedin || 'https://linkedin.com/in/samuel-placeholder'}
+            href={profile?.linkedin || 'https://www.linkedin.com/in/samuel-l-527a03381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'}
             target="_blank"
             rel="noreferrer"
             className="social-subtle-link"
           >
             <Linkedin size={15} />
             <span>LinkedIn</span>
-            <span className="placeholder-micro">[Placeholder]</span>
           </a>
         </div>
       </div>

@@ -79,11 +79,11 @@ export default function Contact({ profile }) {
             </div>
             <div className="info-line">
               <span className="info-line-title">Email</span>
-              <span className="placeholder-pill">[your-email@example.com]</span>
+              <a href="mailto:sam1258official@gmail.com" className="info-line-val">sam1258official@gmail.com</a>
             </div>
             <div className="info-line">
               <span className="info-line-title">Phone</span>
-              <span className="placeholder-pill">[+91-XXXXXXXXXX]</span>
+              <a href="tel:9841208478" className="info-line-val">+91 9841208478</a>
             </div>
           </div>
         </div>
